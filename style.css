@@ -1,0 +1,32 @@
+.bg-man{
+    width: 20px;
+    height: 600px;
+    background-image: url(./img/Untitled-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 200px  ;
+    float: right;
+}
+.man{
+    background-image: url(./img/man.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 200px  ;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: -200px;
+    animation: top-button 5s ease-in-out infinite 0.5s  alternate;
+    animation-play-state: running;
+}
+@keyframes top-button {
+    from{
+        top: 0;
+    }
+    to{
+        top:400px;
+    }
+    
+}
